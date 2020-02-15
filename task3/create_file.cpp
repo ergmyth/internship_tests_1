@@ -19,4 +19,5 @@ void	create_file(t_main *s)
 	myfile << "," << -s->scoop->ok_value << "," << -s->scoop->ko_value << ",";
 	myfile << s->volume_start << "," << s->volume_end;
 	myfile.close();
+	cout << "File is created" << endl;
 }
